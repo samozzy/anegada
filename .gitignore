@@ -3,4 +3,3 @@ vendor/
 
 *DS_Store*
 .jekyll-cache/
-Gemfile.lock
