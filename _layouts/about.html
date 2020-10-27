@@ -1,0 +1,29 @@
+--- 
+layout: default
+---
+
+<div class="text-center">
+	{{ content | markdownify }}
+</div>
+
+<div class="container">
+	<div class="row">
+		<div class="col">
+			{% for person in site.data.people %}
+				<div class="card bg-primary mb-4">
+					<div class="card-body">
+						<div class="row">
+							<div class="col-md-3">
+								<img src="{{ person.headshot }}" class="img-fluid rounded shadow-sm w-100" alt="{{ person.name }} Headshot" />
+							</div>
+							<div class="col-md-9">
+								<h2><strong>{{ person.name }}</strong> {{ person.role }}</h2>
+								<p>{{ person.bio | markdownify }}</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			{% endfor %}
+		</div>
+	</div>
+</div>

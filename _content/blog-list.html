@@ -1,0 +1,24 @@
+---
+layout: default
+permalink: /blog/
+title: Blog
+---
+
+<div class="container">
+{% for blogpost in site.blog %}
+	<div class="row">
+		<div class="card border-primary bg-dark">
+			<div class="card-header text-center h2">{{ blogpost.title }}<br>
+				{{ blogpost.date | date: "%a %b %d, %Y" }}
+			</div>
+			<div class="card-body">
+				{{ blogpost.excerpt }}
+				{% for node in blogpost %}{{ node }}{% endfor %}
+			</div>
+			<div class="card-footer p-0">
+				<a class="btn btn-block btn-primary rounded-0 btn-lg" href="{{ blogpost.url }}">Read more...</a>
+			</div>
+		</div>
+	</div>
+{% endfor %}
+</div>

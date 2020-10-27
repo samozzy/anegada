@@ -1,0 +1,29 @@
+---
+layout: default
+--- 
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-4">
+			<div class="card bg-primary mb-4">
+				<div class="card-body">
+					<h1>Hello!</h1>
+					<p>{{ content | markdownify }}</p>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-8">
+			<div class="card border-primary bg-dark mb-4">
+				<div class="card-body">
+					{% assign future_shows = site.shows | where: "period", "future" %}
+					<h2>Coming Soon...</h2>
+					{% for show in future_shows %}
+						<h3><strong>{{ show.title }}</strong> by {{ show.playwright }}</h3>
+						<p>{{ show.content }}</p>
+						<h5><strong>{{ show.show_date }}</strong></h5>
+					{% endfor %}
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
