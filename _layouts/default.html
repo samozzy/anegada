@@ -15,7 +15,7 @@
   <body style="background-color:black;color:white;" class="d-flex flex-column h-100">
     <nav class="navbar navbar-expand-md navbar-light bg-light text-dark">
         <div class="brand-mobile"> 
-          <a href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/static/img/logo_new.jpeg" height="50px" alt="Anegada Theatre Logo" /></a>
+          <a href="{{ site.baseurl }}/"><img src="{{ site.logo_path }}" height="50px" alt="Anegada Theatre Logo" /></a>
         </div>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#anegadaNavbar" aria-controls="anegadaNavbar" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -23,12 +23,12 @@
         <div class="collapse navbar-collapse" id="anegadaNavbar">
             <div class="container">
                 <div class="row w-100">
-                    <div class="col-md-3 offset-md-1">
+                    <div class="col-md-4 offset-md-1">
                         <a class="brand-large" href="/">
-                            <img src="/static/img/logo_new.jpeg" height="100px" alt="Anegada Theatre Logo" />
+                            <img src="{{ site.logo_path }}" height="75px" alt="Anegada Theatre Logo" />
                         </a>
                     </div>
-                    <div class="col-md-8 my-auto">
+                    <div class="col-md-7 my-auto">
                         <ul class="navbar-nav float-right">
                             {% for item in site.data.nav %}
                                 <li class="nav-item {% if item.link == page.permalink %}active{% endif %}">
@@ -52,11 +52,11 @@
 
 
     <div class="container-fluid footer mt-auto" id="section_footer">
-        <div class="row bg-primary align-items-center py-3 px-5">
-            <div class="col-md">
-                <img src="/static/img/logo_new.jpeg" alt="Anegada Theatre Logo" class="rounded-circle" height="50px" />
+        <div class="row bg-primary align-items-center py-2 px-5 text-center text-md-left">
+            <div class="col-md ml-md-4 mb-2 mb-md-0">
+                <img src="{{ site.logo_path_footer }}" alt="Anegada Theatre Logo" class="rounded-circle" height="80px" />
             </div>
-            <div class="col-md offset-md-7">
+            <div class="col-md offset-md-6">
                 <p class="small text-light my-auto">&copy; Anegada Theatre, {{ 'now' | date: "%Y" }}</p>
                 <p class="small text-light my-auto">Web Design by <a href="https://web.samosborne.me/" title="Sam Osborne Web Design">Sam Osborne</a></p>
             </div>
