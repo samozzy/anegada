@@ -1,11 +1,13 @@
-title: Phone Box Theatre
-email: hello@phonebox.theatre 
-description: >- # this means to ignore newlines until "baseurl:"
-  Phone Box Theatre is a new, independent theatre company based in the East Midlands. We create work focused on connecting others with high quality technical design.
+title: Anegada Theatre
+email: info@anegadatheatre.org.uk
+description: >- 
+  ""
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: phoneboxtheatre
+# twitter_username: 
 github_username:  samozzy
+logo_path: "/static/img/logo.png"
+logo_path_footer: "/static/img/logo_footer.png"
 
 
 # Exclude from processing.
@@ -30,6 +32,7 @@ livereload: true
 
 plugins:
   - bootstrap 
+  - jekyll-paginate
 
 sass:
     sass_dir: _sass
