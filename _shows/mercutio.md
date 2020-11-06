@@ -1,7 +1,8 @@
 ---
 title: "Mercutio's Romeo and Juliet"
 playwright: Tara Anegada
-show_date: "Premiering on 14th December, 2020"
+show_date: 2020-12-14
+date_string: "Premiering on " 
 featured: true 
 period: "future"
 ---
