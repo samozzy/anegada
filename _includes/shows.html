@@ -1,11 +1,11 @@
-					{% assign shows = include.shows | sort: show_date | reverse %}
+					{% assign shows = include.shows | sort: "show_date" %}
 					<h2 class="header">
 						{% if include.header %}
 							{{ include.header }}
 						{% elsif include.type == 'future' %}
 							Coming Soon
 						{% elsif include.type == 'present' %}
-							Showing Now
+							Now &amp; Next
 						{% elsif include.type == 'past' %}
 							Previous Shows
 						{% endif %}</h2>
@@ -13,7 +13,6 @@
 						<h3><strong>{{ show.title }}</strong> <small>by {{ show.playwright }}</small></h3>
 						{% assign production = show.path | split: "/" %}
 						{% assign site_productions = site.productions | map: "slug" %}
-						{{ site.productions[all].slug }}
 						{% if production.size == 3 %}
 							{% if site_productions contains production[1] %}
 								{% assign this_production = site.productions | where: "slug", production[1] %}
@@ -22,6 +21,14 @@
 							{% endif %}
 						{% endif %}
 						<p>{{ show.content | markdownify }}</p>
-						<h5><strong>{{ show.date_string }}{{ show.show_date | date_to_long_string: "ordinal" }}</strong></h5>
+						<h5>
+							{% assign current_date = 'now' | date: "%Y-%m-%d" %}
+							{% assign the_show_date = show.show_date | date: "%Y-%m-%d" %}
+							{% if the_show_date <= current_date %}
+								<strong>Available now {% if show.youtube %}<a href="{{ show.youtube }}">on YouTube</a>{% endif %}</strong>
+							{% else %}
+								<strong>{{ show.date_string }}{{ show.show_date | date_to_long_string: "ordinal" }}</strong>
+							{% endif %}
+						</h5>
 						{% unless forloop.last %}<hr class="border-primary">{% endunless %}
 					{% endfor %}
