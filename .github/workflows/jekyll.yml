@@ -1,7 +1,9 @@
 name: Build to GitHub pages
 
 on:
-  push
+  push:
+    branches:
+      - master
 
 jobs:
   jekyll:
