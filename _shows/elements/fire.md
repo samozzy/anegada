@@ -16,6 +16,7 @@ period: "present"
     role: Dramaturg -->
 ---
 
-EARTH is a grounding force but also draining, it weighs you down with guilt's gravity.
+FIRE is a loving force of acceptance,
+it treasures mourning with heartbreak’s awe.
 
-The narrator's response is one of numbness.
+The narrator’s response is one of peace.

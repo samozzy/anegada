@@ -19,11 +19,12 @@ crew:
   - name: Zoe Smith
     role: Producer
   - name: Alisha Toporski
-    role: Artwork
+    role: Artist
   - name: Em Rule
     role: Dramaturg
 ---
 
-EARTH is a grounding force but also draining, it weighs you down with guilt's gravity.
+EARTH is a grounding force but also draining, 
+it weighs you down with guilt's gravity.
 
 The narrator's response is one of numbness.

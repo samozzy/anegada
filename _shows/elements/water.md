@@ -16,6 +16,7 @@ period: "present"
     role: Dramaturg -->
 ---
 
-EARTH is a grounding force but also draining, it weighs you down with guilt's gravity.
+WATER is a vengeful force that lashes out,
+it cleanses you with righteous focus. 
 
-The narrator's response is one of numbness.
+The narrator’s response is one of rage.
