@@ -19,6 +19,7 @@ poster: /static/productions/elements/air_poster.jpg
     role: Dramaturg -->
 ---
 
-EARTH is a grounding force but also draining, it weighs you down with guilt's gravity.
+AIR is a chaotic force that sweeps reason aside, 
+it lifts you up with memory’s oblivion.
 
-The narrator's response is one of numbness.
+The narrator’s response is one of denial. 
