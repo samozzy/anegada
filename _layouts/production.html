@@ -1,0 +1,83 @@
+---
+layout: outer
+---
+
+<div class="container-fluid bg-primary py-4 mt-4">
+	<div class="row">
+		<div class="col">
+			<h1 class="text-center header">{{ page.title }}{% if page.prod_date %}<br><small><strong>{{ page.prod_date }}</strong></small>{% endif %}</h1>
+
+		</div>
+	</div>
+</div>
+<div class="container">
+	<div class="row mt-4">
+		<div class="col">
+			{{ page.content | markdownify }}
+		</div>
+	</div>
+	<div class="row">
+		{% assign shows = site.shows | where_exp: "show", "show.path contains page.slug" %}
+		{% for show in shows %}
+			<div class="col col-md-6">
+				<div class="card bg-dark border-primary mb-4">
+					<div class="card-body">
+						{% include shows.html shows=shows %}
+					</div>
+				</div>
+			</div>
+		{% endfor %}
+	</div>
+</div>
+{% for show in shows %}
+	<div class="container-fluid bg-primary">
+		<div class="row no-gutters">
+			<div class="col p-0">
+				<h2 class="header pt-3 text-center">{{ show.title }}
+					<br><small><strong>{{ show.show_date | date_to_long_string: "ordinal" }}</strong></small>
+				</h2>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col py-3">
+				{{ show.content | markdownify }}
+			</div>
+			{% if show.youtube %}
+				<div class="col-md-4">
+					<div class="card bg-primary m-3 text-center">
+						<div class="card-header text-center">
+							Watch on YouTube
+						</div>
+						<div class="card-body">
+							<i class="fab fa-youtube fa-5x"><span class="sr-only">Watch {{ show.title }} on YouTube</span></i>
+						</div>
+					</div>
+				</div>
+			{% endif %}
+		</div>
+		{% if show.cast %}
+			<div class="row">
+				<div class="col">
+					<h3 class="header text-center">Cast</h3>
+					<div class="card bg-dark border-primary mb-4">
+						<div class="card-body">
+							{% for person in show.cast %}
+								<div class="row">
+									<div class="col-md-4">
+										<img class="img-fluid rounded mb-3" alt="{{ person.name }}" src="{{ person.headshot }}">
+										<h4 class="header text-center">{{ person.name }}</h4>
+									</div>
+									<div class="col">
+										{{ person.bio | markdownify }}
+									</div>
+								</div>
+							{% endfor %}
+						</div>
+					</div>
+				</div>
+			</div>
+		{% endif %}
+	</div>
+{% endfor %}
