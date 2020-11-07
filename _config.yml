@@ -1,23 +1,14 @@
 title: Anegada Theatre
 email: info@anegadatheatre.org.uk
 description: >- 
-  ""
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-# twitter_username: 
+  "Based in the East Midlands, we strive to make art that is diverse and will spark conversation. Through adaptations that reframe traditional literature and original productions that experiment with poetry, drama and visual media, we aim to create theatre that is unique and challenges our audiences."
+baseurl: ""
+url: "https://anegadatheatre.org.uk/"
+twitter_username: anegadatheatre
 github_username:  samozzy
 logo_path: "/static/img/logo.png"
 logo_path_footer: "/static/img/logo_footer.png"
 
-
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
 exclude:
   - .sass-cache/
   - .jekyll-cache/
@@ -44,10 +35,14 @@ sass:
 collections:
   content:
     output: true
-    permalink: :path/
+    permalink: /:path/
   shows:
     output: true 
-    permalink: /shows/:path/
+    permalink: /productions/:path/
+    # Shows should be listed in folders according to their production
+  productions:
+    output: true 
+    permalink: /productions/:path/
   blog:
     output: true 
     permalink: /blog/:year/:month/:slug/
@@ -63,3 +58,11 @@ defaults:
       type: blog 
     values:
       layout: blog-post 
+  - scope: 
+      type: productions
+    values:
+      layout: production
+  - scope: 
+      type: shows
+    values: 
+      layout: default

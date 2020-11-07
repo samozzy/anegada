@@ -4,26 +4,76 @@ layout: default
 
 <div class="container">
 	<div class="row">
-		<div class="col-md-5">
+		<div class="col-lg-5">
 			<div class="card bg-primary mb-4">
 				<div class="card-body">
-					<h1 class="header text-center">Hello!</h1>
+					<h1 class="header text-center py-3">Hello!</h1>
 					<p>{{ content | markdownify }}</p>
 				</div>
 			</div>
 		</div>
-		<div class="col-md-7">
-			<div class="card border-primary bg-dark mb-4">
-				<div class="card-body">
-					{% assign future_shows = site.shows | where: "period", "future" %}
-					<h2 class="header">Coming Soon...</h2>
-					{% for show in future_shows %}
-						<h3><strong>{{ show.title }}</strong> <small>by {{ show.playwright }}</small></h3>
-						<p>{{ show.content | markdownify }}</p>
-						<h5><strong>{{ show.show_date }}</strong></h5>
-					{% endfor %}
+
+{% comment %}
+		{% assign present_shows = site.shows | where: "period", "present" %}
+		{% assign future_shows = present_shows | where_exp: "show", "show.show_date >= current_date" %}
+		{% assign present_shows = present_shows | where_exp: "show", "show.show_date < site.date" %}
+		{% assign past_shows = site.shows | where: "period", "past" %}
+{% endcomment %}
+		{% assign future_shows = site.shows | where: "period", "future" %}
+		{% assign present_shows = site.shows | where: "period", "present" %}
+		{% assign past_shows = site.shows | where: "period", "past" %}
+		{% assign num_types = 0 %}
+		{% if future_shows != empty %}{% assign num_types = num_types | plus:1 %}{% endif %}
+		{% if present_shows != empty %}{% assign num_types = num_types | plus:1 %}{% endif %}
+		{% if past_shows != empty %}{% assign num_types = num_types | plus:1 %}{% endif %}
+
+
+		{% if future_shows != empty or present_shows != empty or past_shows != empty %}
+			<div class="col-lg-7">
+				<div class="card border-primary bg-dark mb-4">
+					<div class="card-body">
+						{% if present_shows != empty %}
+							{% include shows.html shows=present_shows type='present' %}
+						{% elsif future_shows != empty %}
+							{% include shows.html shows=future_shows type='future' %}
+						{% else %}
+							{% include shows.html shows=past_shows type='past' %}
+						{% endif %}
+						{% assign num_types = num_types | minus: 1 %}
+					</div>
 				</div>
 			</div>
-		</div>
+			{% if num_types >= 1 %}
+				<div class="col-lg-12">
+					<div class="card border-primary bg-dark mb-4">
+						<div class="card-body">
+							{% if future_shows != empty %}
+								{% include shows.html shows=future_shows type='future' %}
+							{% else %}
+								{% include shows.html shows=past_shows type='past' %}
+							{% endif %}
+						</div>
+					</div>
+				</div>
+				{% if present_shows != empty and past_shows != empty %}
+					<div class="col-lg-12">
+						<div class="card border-primary bg-dark mb-4">
+							<div class="card-body">
+								{% include shows.html shows=past_shows type='past' %}
+							</div>
+						</div>
+					</div>
+				{% endif %}
+			{% endif %}
+
+		{% else %}
+			<div class="col-lg-7">
+				<div class="card border-primary bg-dark mb-4">
+					<div class="card-body">
+						<p class="text-center">There are no shows.</p>
+					</div>
+				</div>
+			</div>
+		{% endif %}
 	</div>
 </div>

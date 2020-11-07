@@ -1,0 +1,32 @@
+---
+title: Productions
+permalink: /productions/
+layout: default 
+---
+
+<div class="container">
+	{% for production in site.productions %}
+	<div class="card bg-dark">
+		<div class="card-body border-primary">
+			<div class="row mt-4 ">
+				<div class="col-lg-12 bg-primary text-dark pt-2">
+					<h2 class="text-center header">{{ production.title }}{% if production.prod_date %}<br><small><strong>{{ production.prod_date }}</strong></small>{% endif %}</h2>
+				</div>
+			</div>
+			<div class="row mb-4">
+				<div class="col-lg order-2 order-lg-1">
+					<p>{{ production.content | markdownify }}</p>
+				</div>
+				{% if production.banner %}
+				<div class="col-lg-6 px-0 p-lg-2 text-center order-1 order-lg-2">
+					<img src="{{ production.banner }}" alt="{{ production.title }} Banner" class="img-fluid">
+				</div>
+				{% endif %}
+				<div class="col-12 order-3">
+					<a href="{{ production.url }}" class="btn btn-block w-75 btn-primary mx-auto rounded-0 text-dark" role="button">See more</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	{% endfor %}
+</div>

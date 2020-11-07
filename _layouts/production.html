@@ -1,0 +1,107 @@
+---
+layout: outer
+---
+
+<div class="container-fluid bg-primary py-4 mt-4">
+	<div class="row">
+		<div class="col">
+			<h1 class="text-center header">{{ page.title }}{% if page.prod_date %}<br><small><strong>{{ page.prod_date }}</strong></small>{% endif %}</h1>
+
+		</div>
+	</div>
+</div>
+<div class="container">
+	<div class="row mt-4">
+		<div class="col">
+			{{ page.content | markdownify }}
+		</div>
+	</div>
+	<div class="row">
+		{% assign shows = site.shows | where_exp: "show", "show.path contains page.slug" | sort: "show_date" %}
+		{% for show in shows %}
+			<div class="col col-md-6">
+				<a class="btn btn-primary btn-block btn-card mb-4 text-dark" role="button" href="#{{ show.slug }}">
+					<h2><strong>{{ show.title }}</strong> {% if show.playwright %}by {{ show.playwright }}{% endif %}{% if show.show_date %}<br>{{ show.show_date | date_to_long_string: "ordinal" }}{% endif %}</h2>
+					{% if show.banner %}
+						<img src="{{ show.banner }}" class="img-fluid banner-rounded mb-2" alt="{{ show.title }} Banner">
+					{% endif %}
+				</a>
+			</div>
+		{% endfor %}
+	</div>
+</div>
+{% for show in shows %}
+	<div class="container-fluid bg-primary">
+		<div class="row no-gutters">
+			<div class="col p-0">
+				<h2 class="header pt-3 text-center" id="{{ show.slug }}">{{ show.title }}
+					<br><small><strong>{{ show.show_date | date_to_long_string: "ordinal" }}</strong></small>
+				</h2>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col py-3">
+				{{ show.content | markdownify }}
+			</div>
+			{% if show.youtube %}
+				<div class="col-md-4">
+					<div class="card bg-primary m-3 text-center">
+						<div class="card-header text-center">
+							<strong>Watch on YouTube</strong>
+						</div>
+						<div class="card-body">
+							<div class="show-youtube" style="background-image:url('{{ show.poster }}');">
+								<span><i class="fab fa-youtube fa-5x text-dark"><span class="sr-only">Watch {{ show.title }} on YouTube</span></i></span>
+							</div>
+						</div>
+					</div>
+				</div>
+			{% endif %}
+		</div>
+		{% if show.cast %}
+			<div class="row">
+				<div class="col">
+					<h3 class="header text-center">Cast</h3>
+					<div class="card bg-dark border-primary mb-4">
+						<div class="card-body">
+							{% for person in show.cast %}
+								<div class="row">
+									<div class="col-md-4">
+										<img class="img-fluid headshot mb-3" alt="{{ person.name }}" src="{{ person.headshot }}">
+									</div>
+									<div class="col">
+										<h4 class="header text-center text-md-left">{{ person.name }}</h4>
+										{{ person.bio | markdownify }}
+									</div>
+								</div>
+							{% endfor %}
+						</div>
+					</div>
+				</div>
+			</div>
+		{% endif %}
+		{% if show.crew %}
+			<div class="row">
+				<div class="col">
+					<h3 class="header text-center">Team</h3>
+					<div class="card bg-dark border-primary mb-4">
+						<div class="card-body">
+							<div class="row">
+								{% for person in show.crew %}
+									<div class="col-6 text-right">
+										<h4><strong>{{ person.name }}</strong> 
+									</div>
+									<div class="col-6 text-left">
+										<h4>{{ person.role }}</h4>
+									</div>
+								{% endfor %}
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		{% endif %}
+	</div>
+{% endfor %}
