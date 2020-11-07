@@ -53,9 +53,29 @@ $anegada-pink: #ec219b;
 }
 
 // Layout
-.card {
+.card, .headshot, .btn-card, .banner-rounded {
 	border-radius: 1.5rem !important;
 	&.border-primary {
 		border-width: 10px;
+	}
+	img {
+		box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.5);
+	}
+	&:hover {
+		img {
+			opacity: 0.9;
+			box-shadow: 0 1rem 3rem rgba(0,0,0,0.7);
+		}
+	}
+}
+
+.show-youtube {
+	background-size: cover;
+	background-position: center;
+	@extend .my-auto;
+	min-height: 10rem;
+	line-height: 2;
+	i {
+		line-height: inherit;
 	}
 }
