@@ -20,7 +20,9 @@ layout: outer
 		{% for show in shows %}
 			<div class="col col-md-6">
 				<a class="btn btn-primary btn-block btn-card mb-4 text-dark" role="button" href="#{{ show.slug }}">
-					<h2 class="header">{{ show.title }}{% if show.show_date %}<br><small>{{ show.show_date | date_to_long_string: "ordinal" }}</small>{% endif %}</h2>
+					<h2 class="header pt-2">
+						{{ show.title }}
+						{% if show.show_date %}<br><small>{{ show.show_date | date_to_long_string: "ordinal" }}</small>{% endif %}</h2>
 					{% if show.banner %}
 						<img src="{{ show.banner }}" class="img-fluid banner-rounded mb-2" alt="{{ show.title }} Banner">
 					{% endif %}
