@@ -4,9 +4,8 @@ layout: outer
 
 <div class="container-fluid bg-primary py-4 mt-4">
 	<div class="row">
-		<div class="col">
+		<div class="col pt-2">
 			<h1 class="text-center header">{{ page.title }}{% if page.prod_date %}<br><small><strong>{{ page.prod_date }}</strong></small>{% endif %}</h1>
-
 		</div>
 	</div>
 </div>
@@ -31,7 +30,7 @@ layout: outer
 	</div>
 </div>
 {% for show in shows %}
-	<div class="container-fluid bg-primary">
+	<div class="container bg-primary">
 		<div class="row no-gutters">
 			<div class="col p-0">
 				<h2 class="header pt-3 text-center" id="{{ show.slug }}">{{ show.title }}
@@ -41,13 +40,13 @@ layout: outer
 		</div>
 	</div>
 	<div class="container">
-		<div class="row">
+		<div class="row my-3">
 			<div class="col py-3 show-content my-auto">
 				{{ show.content | markdownify }}
 			</div>
 			{% if show.youtube %}
 				<div class="col-md-4">
-					<div class="card bg-primary m-3 text-center">
+					<div class="card bg-primary my-3 text-center">
 						<div class="card-header text-center">
 							<strong>Watch on YouTube</strong>
 						</div>
