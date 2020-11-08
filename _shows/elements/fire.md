@@ -17,6 +17,7 @@ period: "present"
 ---
 
 FIRE is a loving force of acceptance,
+
 it treasures mourning with heartbreak’s awe.
 
 The narrator’s response is one of peace.
