@@ -1,7 +1,8 @@
 // Flood runs a bit smaller than Metropolis, so we want it to pop a bit more.
 .header {
 	font-family: 'flood-std', sans-serif;
-	line-height: 1;
+	line-height: 0.7;
+	margin-bottom: 1rem;
 	small {
 		font-family: $font-family-sans-serif;
 		font-size: 1.5rem;
@@ -10,7 +11,6 @@
 
 h1.header {
 	font-size: $h1-font-size * 1.8;
-	line-height: 0.7;
 }
 h2.header {
 	font-size: $h2-font-size * 1.65;

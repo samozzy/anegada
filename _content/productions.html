@@ -5,10 +5,10 @@ layout: outer
 ---
 
 {% for production in site.productions %}
-	<div class="container-fluid bg-primary my-4 pb-4">
-		<div class="row mt-4">
-			<div class="col-lg-12 text-dark pt-2">
-				<h1 class="text-center header">{{ production.title }}{% if production.prod_date %}<br><small><strong>{{ production.prod_date }}</strong></small>{% endif %}</h1>
+	<div class="container-fluid bg-primary py-3 mt-4">
+		<div class="row">
+			<div class="col-lg-12">
+				<h1 class="text-center header mb-0">{{ production.title }}{% if production.prod_date %}<br><small><strong>{{ production.prod_date }}</strong></small>{% endif %}</h1>
 			</div>
 		</div>
 	</div>

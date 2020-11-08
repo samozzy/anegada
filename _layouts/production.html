@@ -2,10 +2,10 @@
 layout: outer
 ---
 
-<div class="container-fluid bg-primary py-4 mt-4">
+<div class="container-fluid bg-primary py-3 mt-4">
 	<div class="row">
-		<div class="col pt-2">
-			<h1 class="text-center header">{{ page.title }}{% if page.prod_date %}<br><small><strong>{{ page.prod_date }}</strong></small>{% endif %}</h1>
+		<div class="col">
+			<h1 class="text-center header mb-0">{{ page.title }}{% if page.prod_date %}<br><small><strong>{{ page.prod_date }}</strong></small>{% endif %}</h1>
 		</div>
 	</div>
 </div>
@@ -20,7 +20,7 @@ layout: outer
 		{% for show in shows %}
 			<div class="col col-md-6">
 				<a class="btn btn-primary btn-block btn-card mb-4 text-dark" role="button" href="#{{ show.slug }}">
-					<h2 class="header">{{ show.title }}{% if show.show_date %}<br><strong><small>{{ show.show_date | date_to_long_string: "ordinal" }}</small></strong>{% endif %}</h2>
+					<h2 class="header">{{ show.title }}{% if show.show_date %}<br><small>{{ show.show_date | date_to_long_string: "ordinal" }}</small>{% endif %}</h2>
 					{% if show.banner %}
 						<img src="{{ show.banner }}" class="img-fluid banner-rounded mb-2" alt="{{ show.title }} Banner">
 					{% endif %}
