@@ -42,7 +42,7 @@ layout: outer
 	</div>
 	<div class="container">
 		<div class="row">
-			<div class="col py-3">
+			<div class="col py-3 show-content my-auto">
 				{{ show.content | markdownify }}
 			</div>
 			{% if show.youtube %}
@@ -68,8 +68,8 @@ layout: outer
 						<div class="card-body">
 							{% for person in show.cast %}
 								<div class="row">
-									<div class="col-md-4">
-										<img class="img-fluid headshot mb-3" alt="{{ person.name }}" src="{{ person.headshot }}">
+									<div class="col-md-4 text-center">
+										<img class="w-75 headshot mb-3" alt="{{ person.name }}" src="{{ person.headshot }}">
 									</div>
 									<div class="col">
 										<h4 class="header text-center text-md-left">{{ person.name }}</h4>
