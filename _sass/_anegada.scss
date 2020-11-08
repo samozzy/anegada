@@ -53,7 +53,7 @@ $anegada-pink: #ec219b;
 }
 
 // Layout
-.card, .headshot, .btn-card, .banner-rounded {
+.card, .headshot, .btn-card, .banner-rounded, .rounded-max {
 	border-radius: 1.5rem !important;
 	&.border-primary {
 		border-width: 10px;
@@ -61,12 +61,10 @@ $anegada-pink: #ec219b;
 	img {
 		box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.5);
 	}
-	&:hover {
-		img {
-			opacity: 0.9;
-			box-shadow: 0 1rem 3rem rgba(0,0,0,0.7);
-		}
-	}
+}
+.btn-card:hover img {
+	opacity: 0.9;
+	box-shadow: 0 1rem 3rem rgba(0,0,0,0.7);
 }
 
 .show-youtube {
@@ -78,4 +76,8 @@ $anegada-pink: #ec219b;
 	i {
 		line-height: inherit;
 	}
+}
+
+.show-content p {
+	@extend .lead;
 }

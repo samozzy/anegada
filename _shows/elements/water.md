@@ -17,6 +17,7 @@ period: "present"
 ---
 
 WATER is a vengeful force that lashes out,
+
 it cleanses you with righteous focus. 
 
 The narrator’s response is one of rage.
