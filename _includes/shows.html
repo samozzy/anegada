@@ -17,12 +17,14 @@
 								{% assign this_production = site.productions | where: "slug", production[1] %}
 								{% assign this_production = this_production.first %}
 								<h3><a href="{{ this_production.url }}/#{{ show.slug }}"><strong>{{ show.title }}</strong></a> <small> by {{ show.playwright }}</small></h3>
+								{{ show.content | markdownify }}
 								<h4><em>Part of <a href="{{ this_production.url }}">{{ this_production.title }}</a></em></h4>
+								{{ this_production.excerpt | markdownify }}
 							{% endif %}
 						{% else %}
 							<h3><strong>{{ show.title }}</strong> <small>by {{ show.playwright }}</small></h3>
+							{{ show.content | markdownify }}
 						{% endif %}
-						<p>{{ show.content | markdownify }}</p>
 						<h5>
 							{% assign current_date = 'now' | date: "%Y-%m-%d" %}
 							{% assign the_show_date = show.show_date | date: "%Y-%m-%d" %}
