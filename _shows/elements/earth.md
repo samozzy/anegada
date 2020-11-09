@@ -1,10 +1,10 @@
 ---
 title: "Earth"
 playwright: Tara Anegada
-show_date: 2020-11-09 19:30:00
+show_date: 2020-11-09 20:00:00
 date_string: "Premiering on "
 period: "present"
-youtube: "https://www.youtube.com/watch?v=bZAKLvCDB2o"
+youtube: "#"
 banner: /static/productions/elements/earth/earth-banner.png
 poster: /static/productions/elements/earth/earth-poster.jpg
 
