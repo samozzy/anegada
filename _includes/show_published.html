@@ -1,0 +1,7 @@
+					{% assign show = include.show %}
+					{% assign current_date = 'now' | date: "%Y-%m-%d %H:%M" %}
+					{% assign the_show_date = show.show_date | date: "%Y-%m-%d %H:%M" %}
+					{% assign show_published = false %}
+					{% if the_show_date <= current_date %}
+						{% assign show_published = true %}
+					{% endif %}

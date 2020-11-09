@@ -47,17 +47,16 @@ layout: outer
 				{{ show.content | markdownify }}
 			</div>
 			{% if show.youtube %}
-				<div class="col-md-4">
-					<div class="card bg-primary my-3 text-center">
-						<div class="card-header text-center">
-							<strong>Watch on YouTube</strong>
+				<div class="col-md-4 pr-md-0">
+					{% include show_published.html show=show %}
+					<a class="btn btn-primary btn-block btn-card mb-4 text-dark py-3 show-youtube {% unless show_published %}disabled {% endunless %}" role="button" {% if show_published == true and show.youtube %}href="{{ show.youtube }}"{% else %}disabled{% endif %}>
+						<span class="h4 text-center mb-2 d-block">
+							<strong>Watch on YouTube {% if show_published %}now{% else %}from {{ show.show_date | date: "%k:%M" }} on {{ show.show_date | date_to_string: "ordinal" }}{% endif %}</strong>
+						</span>
+						<div class="show-youtube-img rounded-max" style="background-image:url('{{ show.poster }}');">
+							<span><i class="fab fa-youtube fa-5x text-dark"><span class="sr-only">Watch {{ show.title }} on YouTube</span></i></span>
 						</div>
-						<div class="card-body">
-							<div class="show-youtube" style="background-image:url('{{ show.poster }}');">
-								<span><i class="fab fa-youtube fa-5x text-dark"><span class="sr-only">Watch {{ show.title }} on YouTube</span></i></span>
-							</div>
-						</div>
-					</div>
+					</a>
 				</div>
 			{% endif %}
 		</div>
