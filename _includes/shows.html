@@ -26,12 +26,12 @@
 							{{ show.content | markdownify }}
 						{% endif %}
 						<h5>
-							{% assign current_date = 'now' | date: "%Y-%m-%d" %}
-							{% assign the_show_date = show.show_date | date: "%Y-%m-%d" %}
-							{% if the_show_date <= current_date %}
+							{% include show_published.html show=show %}
+							{% if show_published %}
 								<strong>Available now {% if show.youtube %}<a href="{{ show.youtube }}">on YouTube</a>{% endif %}</strong>
 							{% else %}
-								<strong>{{ show.date_string }}{{ show.show_date | date_to_long_string: "ordinal" }}</strong>
+								{% assign show_time = show.show_date | date: "%r" %}
+								<strong>{{ show.date_string }}{{ show.show_date | date_to_long_string: "ordinal" }}{% unless show_time == "12:00:00 AM" %} at {{ show.show_date | date: "%k:%M" }}{% endunless %}</strong>
 							{% endif %}
 						</h5>
 						{% unless forloop.last %}<hr class="border-primary">{% endunless %}
