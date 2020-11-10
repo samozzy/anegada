@@ -40,7 +40,7 @@
                         </a>
                     </div>
                     <div class="col-md-7 my-auto">
-                        <ul class="navbar-nav float-right">
+                        <ul class="navbar-nav float-right text-center">
                             {% for item in site.data.nav %}
                                 <li class="nav-item {% if item.link == page.permalink %}active{% endif %}">
                                     <a class="nav-link" href="{{ item.link }}">{{ item.title | upcase }}</a>
