@@ -13,11 +13,11 @@ layout: default
 				<div class="card bg-primary mb-4">
 					<div class="card-body">
 						<div class="row">
-							<div class="col-md-3">
+							<div class="col-md-3 mb-4">
 								<img src="{{ person.headshot }}" class="img-fluid headshot shadow-sm w-100" alt="{{ person.name }} Headshot" />
 							</div> 
-							<div class="col">
-								<h2 class="header">{{ person.name }} <br class="d-md-none"><small>{{ person.role }}</small></h2>
+							<div class="col order-2">
+								<h2 class="header text-center text-md-left">{{ person.name }} <br class="d-lg-none"><small>{{ person.role }}</small></h2>
 								<p>{{ person.bio | markdownify }}</p>
 							</div>
 						</div>
