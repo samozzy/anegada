@@ -10,16 +10,31 @@ fields:
   label: playwright
 - type: datetime
   name: show_date
-  label: show_date
+  label: Show Date
+  description: In the format YYYY-MM-DD HH:MM<br>Time is optional. If time is not
+    given, show will go live at midnight.
 - type: text
   name: date_string
   label: date_string
-- type: text
-  name: period
-  label: period
+- name: period
+  type: select
+  default: present
+  config:
+    required: false
+    options:
+    - present
+    - past
+    - future
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Period
 - type: text
   name: youtube
   label: youtube
+  description: Link to the YouTube video for the show
 - type: file
   name: banner
   label: banner
