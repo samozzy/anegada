@@ -1,11 +1,11 @@
 ---
 title: "Fire"
 playwright: Tara Anegada
-show_date: 2020-11-30
+show_date: 2020-11-30 19:30
 date_string: "Premiering on "
 period: "present"
 
-<!-- crew:
+crew:
   - name: Tara Anegada
     role: Playwright & Director
   - name: Zoe Smith
@@ -13,7 +13,7 @@ period: "present"
   - name: Alisha Toporski
     role: Artwork
   - name: Em Rule
-    role: Dramaturg -->
+    role: Dramaturg
 ---
 
 FIRE is a loving force of acceptance,
