@@ -1,0 +1,51 @@
+---
+label: Show
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: playwright
+  label: playwright
+- type: datetime
+  name: show_date
+  label: show_date
+- type: text
+  name: date_string
+  label: date_string
+- type: text
+  name: period
+  label: period
+- type: text
+  name: youtube
+  label: youtube
+- type: file
+  name: banner
+  label: banner
+- type: file
+  name: poster
+  label: poster
+- type: field_group_list
+  name: cast
+  label: cast
+  fields:
+  - type: text
+    name: name
+    label: name
+  - type: file
+    name: headshot
+    label: headshot
+  - type: textarea
+    name: bio
+    label: bio
+- type: field_group_list
+  name: crew
+  label: crew
+  fields:
+  - type: text
+    name: name
+    label: name
+  - type: text
+    name: role
+    label: role
