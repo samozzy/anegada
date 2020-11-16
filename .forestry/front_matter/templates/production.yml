@@ -8,6 +8,7 @@ fields:
 - type: text
   name: prod_date
   label: prod_date
+  description: Date of the production, in the format [Month] YYYY, eg. November 2020
 - type: file
   name: banner
   label: banner
