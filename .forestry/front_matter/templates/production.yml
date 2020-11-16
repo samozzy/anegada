@@ -1,0 +1,13 @@
+---
+label: Production
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: prod_date
+  label: prod_date
+- type: file
+  name: banner
+  label: banner
