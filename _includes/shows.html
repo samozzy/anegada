@@ -1,6 +1,6 @@
 					{% assign shows = include.shows | sort: "show_date" %}
 					<h2 class="header">
-						{% if include.header %}
+						{% if include.header and include.header != empty %}
 							{{ include.header }}
 						{% elsif include.type == 'future' %}
 							Coming Soon

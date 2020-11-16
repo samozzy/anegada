@@ -8,7 +8,7 @@ layout: outer
 	<div class="container-fluid bg-primary py-3 mt-4">
 		<div class="row">
 			<div class="col-lg-12">
-				<h1 class="text-center header mb-0">{{ production.title }}{% if production.prod_date %}<br><small><strong>{{ production.prod_date }}</strong></small>{% endif %}</h1>
+				<h1 class="text-center header mb-0">{{ production.title }}{% if production.prod_date and production.prod_date != empty %}<br><small><strong>{{ production.prod_date }}</strong></small>{% endif %}</h1>
 			</div>
 		</div>
 	</div>
@@ -17,7 +17,7 @@ layout: outer
 			<div class="col-lg order-2 order-lg-1">
 				<p>{{ production.excerpt | markdownify }}</p>
 			</div>
-			{% if production.banner %}
+			{% if production.banner and production.banner != empty %}
 			<div class="col-lg-6 px-0 p-lg-2 text-center order-1 order-lg-2">
 				<img src="{{ production.banner }}" alt="{{ production.title }} Banner" class="img-fluid rounded-max">
 			</div>
