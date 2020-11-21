@@ -66,4 +66,5 @@ fields:
     label: role
 pages:
 - _shows/elements/fire.md
+- _shows/elements/water.md
 - _shows/shakespeare/mercutio.md
