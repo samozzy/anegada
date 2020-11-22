@@ -14,8 +14,8 @@ crew:
 - name: Em Rule
   role: Dramaturg
 youtube: ''
-banner: ''
-poster: ''
+banner: "/static/fire-banner.png"
+poster: "/static/fire-by-alisha-toporski.png"
 cast:
 - name: Lillian Race
   headshot: "/static/lillian-race-headshot.jpg"
