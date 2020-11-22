@@ -19,7 +19,9 @@ crew:
 cast:
 - name: Tobi Bambi
   headshot: "/static/tobi-bambi-headshot-colour.jpeg"
-  bio: ''
+  bio: Tobi is studying a BSc in Genetics at the University of Nottingham. With The
+    Nottingham New Theatre Tobi acted in ‘Inhabitation’ (2019), Assistant Produced
+    'Pink Mist' (2020), and has worked as an assistant on technical teams.
 
 ---
 WATER is a vengeful force that lashes out,
