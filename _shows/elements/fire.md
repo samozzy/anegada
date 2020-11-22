@@ -16,7 +16,10 @@ crew:
 youtube: ''
 banner: ''
 poster: ''
-cast: []
+cast:
+- name: Lillian Race
+  headshot: "/static/lillian-race-headshot-colour.jpg"
+  bio: ''
 
 ---
 FIRE is a loving force of acceptance,
