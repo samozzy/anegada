@@ -51,6 +51,9 @@ $anegada-pink: #ec219b;
 .brand-large {
   @extend .navbar-brand, .d-none, .d-md-block;
 }
+.navbar {
+	flex: 1 0 auto;
+}
 
 // Layout
 .card, .headshot, .btn-card, .banner-rounded, .rounded-max {
