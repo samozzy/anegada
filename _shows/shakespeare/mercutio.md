@@ -1,11 +1,16 @@
 ---
-title: "Mercutio's Romeo and Juliet"
+title: Mercutio's Romeo and Juliet
 playwright: Tara Anegada
 show_date: 2020-12-14
-date_string: "Premiering on " 
-period: "future"
----
+date_string: 'Premiering on '
+period: future
+youtube: ''
+banner: ''
+poster: ''
+cast: []
+crew: []
 
+---
 "I've grown up with him, with Romeo. He's been my best friend for as long as I can remember. His eyes are the first memory I have."
 
 There are two sides to every love story; 'Mercutio' explores Shakespeare's 'Romeo and Juliet' from the perspectives of Mercutio and Juliet, as an unlikely friendship blossoms between the pair. 
