@@ -13,7 +13,7 @@ crew:
 - name: Zoe Smith
   role: Producer
 - name: Alisha Toporski
-  role: Artwork
+  role: Artist
 - name: Em Rule
   role: Dramaturg
 cast:
