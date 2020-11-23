@@ -1,10 +1,10 @@
 ---
 title: Water
 playwright: Tara Anegada
-show_date: 2020-11-23 19:30
+show_date: 2020-11-23 20:30:00 +0000
 date_string: 'Premiering on '
 period: present
-youtube: tbd
+youtube: https://youtu.be/jmuGxF4H-94
 banner: "/static/productions/elements/water/water_banner.png"
 poster: "/static/productions/elements/water/water_poster.png"
 crew:
