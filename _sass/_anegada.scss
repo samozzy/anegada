@@ -53,6 +53,7 @@ $anegada-pink: #ec219b;
 }
 .navbar {
 	flex: 1 0 auto;
+	flex-grow: inherit;
 }
 
 // Layout
@@ -83,4 +84,11 @@ $anegada-pink: #ec219b;
 
 .show-content p {
 	@extend .lead;
+}
+
+.blog-content {
+	img {
+		@extend .img-fluid, .w-75, .mb-2, .mx-auto, .d-block;
+		text-align: center;
+	}
 }

@@ -1,10 +1,11 @@
 ---
-layout: default
+layout: inner
 ---
 
-<h1 class="text-center">
-	{{ page.title }}
-	<br>
+<h2 class="text-center">
 	{{ page.date | date: "%a %b %d, %Y" }}
-</h1>
-{{ content | markdownify }}
+</h2>
+<div class="blog-content">
+	{{ content | markdownify }}
+</div>
+<a class="btn btn-primary" role="button" href="/blog/"><i class="fa fa-fw fa-arrow-left"><span class="sr-only">Back arrow</span></i>&nbsp;View all blog posts</a>
