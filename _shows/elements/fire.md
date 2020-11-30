@@ -13,7 +13,7 @@ crew:
   role: Artist
 - name: Em Rule
   role: Dramaturg
-youtube: tbd
+youtube: https://youtu.be/FH43RzQ0zk4
 banner: "/static/fire-banner.png"
 poster: "/static/fire-by-alisha-toporski.png"
 cast:
