@@ -16,3 +16,5 @@ fields:
     display_utc: false
     export_format: YYYY-MM-DD hh:mm
   default: now
+pages:
+- _blog/2020/mercutio_rehearsals.md
