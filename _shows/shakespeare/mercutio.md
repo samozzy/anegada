@@ -14,7 +14,13 @@ cast:
 - name: Barney Hartwill
   headshot: "/static/barney-hartwil-headshot-anegada-theatre.png"
   bio: ''
-crew: []
+crew:
+- role: Assistant Producer
+  name: Jasmine Butler
+- name: Zoe Smith
+  role: Producer
+- name: Tara Anegada
+  role: Writer and Director
 
 ---
 "I've grown up with him, with Romeo. He's been my best friend for as long as I can remember. His eyes are the first memory I have."
