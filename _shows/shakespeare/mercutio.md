@@ -1,13 +1,16 @@
 ---
 title: Mercutio's Romeo and Juliet
 playwright: Tara Anegada
-show_date: 2020-12-14 19:30:00 +0000
+show_date: 2020-12-14T19:30:00.000+00:00
 date_string: 'Premiering on '
 period: future
 youtube: ''
 banner: ''
 poster: ''
-cast: []
+cast:
+- name: Barney Hartwill
+  headshot: "/static/barney-hartwil-headshot-anegada-theatre.png"
+  bio: ''
 crew: []
 
 ---
