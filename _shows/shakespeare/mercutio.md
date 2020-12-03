@@ -5,7 +5,7 @@ show_date: 2020-12-14T19:30:00.000+00:00
 date_string: 'Premiering on '
 period: future
 youtube: ''
-banner: ''
+banner: "/static/mercutios-romeo-and-juliet-by-tara-anegada-banner.JPG"
 poster: ''
 cast:
 - name: Barney Hartwill
