@@ -8,6 +8,9 @@ youtube: ''
 banner: ''
 poster: ''
 cast:
+- name: Sofia Bassani
+  headshot: "/static/sofia-bassani-headshot-anegada-theatre.png"
+  bio: ''
 - name: Barney Hartwill
   headshot: "/static/barney-hartwil-headshot-anegada-theatre.png"
   bio: ''
