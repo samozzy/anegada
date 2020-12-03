@@ -19,6 +19,8 @@ crew:
   role: Writer and Director
 - name: Zoe Smith
   role: Producer
+- name: Joe Holmes-Milner
+  role: Dramaturg and Assistant Director
 - role: Assistant Producer
   name: Jasmine Butler
 
