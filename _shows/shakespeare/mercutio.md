@@ -10,7 +10,16 @@ poster: ''
 cast:
 - name: Barney Hartwill
   headshot: "/static/barney-hartwil-headshot-anegada-theatre.png"
-  bio: ''
+  bio: Barney is a Nottingham based actor whose professional credits include ‘Fine,
+    Thanks’ with the Lund Theatre Company at the Edinburgh Fringe Festival (2017)
+    and the Savoy Theatre (2019). Barney’s credits with The Nottingham New Theatre
+    include lead roles in ‘Edward II’ (2019) and ‘Eve and Adam’ (2019), as well as
+    roles in ‘Vehement’ (2019), and ‘The Beauty Queen of Lenane’ (2018). Barney also
+    directed a production of ‘All My Sons’ (2020) and has acted in two digital theatre
+    pieces; ‘Cinnamon Tea’ (2020) and ‘SPRING + AWAKENING’ (2020) for UPLOAD Virtual
+    Festival and theSpace Online. Barney is studying a BA in Politics and International
+    Relations at the University of Nottingham and is the current Theatre Manager of
+    The NNT.
 - name: Sofia Bassani
   headshot: "/static/sofia-bassani-headshot-anegada-theatre.png"
   bio: ''
