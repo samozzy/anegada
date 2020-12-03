@@ -22,14 +22,14 @@ cast:
     The NNT.
 - name: Sofia Bassani
   headshot: "/static/sofia-bassani-headshot-anegada-theatre.png"
-  bio: Sofia is an actor, based in Nottingham and this is her first professional credit.
-    Sofia is a member of The National Youth Theatre and with The Nottingham New Theatre
-    her acting credits include ‘A Midsummer Night’s Dream’ (2019), ‘Vehement’ (2019),
-    and ‘Forgetfulness Therapy’ (2019). Sofia also produced ‘All My Sons’ (2020) and
-    has acted in two digital theatre pieces; ‘I think He was called Rosalind’ (2020)
-    and ‘SPRING + AWAKENING’ (2020) for UPLOAD Virtual Festival and theSpace Online.
-    Sofia is the current Social and Fundraising Coordinator of The NNT and is studying
-    a BA in Politics and International Relations at the University of Nottingham.
+  bio: Sofia is a member of The National Youth Theatre and with The Nottingham New
+    Theatre her acting credits include ‘A Midsummer Night’s Dream’ (2019), ‘Vehement’
+    (2019), and ‘Forgetfulness Therapy’ (2019). Sofia also produced ‘All My Sons’
+    (2020) and has acted in two digital theatre pieces; ‘I think He was called Rosalind’
+    (2020) and ‘SPRING + AWAKENING’ (2020) for UPLOAD Virtual Festival and theSpace
+    Online. Sofia is the current Social and Fundraising Coordinator of The NNT and
+    is studying a BA in Politics and International Relations at the University of
+    Nottingham.
 crew:
 - name: Tara Anegada
   role: Writer and Director
