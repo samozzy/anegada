@@ -92,3 +92,10 @@ $anegada-pink: #ec219b;
 		text-align: center;
 	}
 }
+
+.footer {
+	@extend .text-dark;
+	a {
+		@extend .text-light;
+	}
+}
