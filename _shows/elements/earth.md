@@ -1,29 +1,31 @@
 ---
-title: "Earth"
+title: Earth
 playwright: Tara Anegada
-show_date: 2020-11-09 19:30:00
-date_string: "Premiering on "
-period: "present"
-youtube: "https://youtu.be/BecojZpS9zQ"
-banner: /static/productions/elements/earth/earth-banner.png
-poster: /static/productions/elements/earth/earth-poster.jpg
-
-cast: 
-  - name: Alex Levy
-    headshot: /static/productions/elements/earth/alex.jpg
-    bio: "Alex is a London based actor and writer, his professional credits include '52 Souls' (2020) and 'PVC' (2020) with Chronic Insanity Theatre. Alex has had a number of roles with the Nottingham New Theatre, including 'Edward II' (2019) and 'Human Animals' (2019). Alex also wrote and directed 'Ring Ring' (2018) for the Inter-University Drama Festival."
-
+show_date: 2020-11-09T19:30:00.000+00:00
+date_string: 'Premiering on '
+period: present
+youtube: https://youtu.be/BecojZpS9zQ
+banner: "/static/productions/elements/earth/earth-banner.png"
+poster: "/static/productions/elements/earth/earth-poster.jpg"
+cast:
+- name: Alex Levy
+  headshot: "/static/productions/elements/earth/alex.jpg"
+  bio: Alex is a London based actor and writer, his professional credits include '52
+    Souls' (2020) and 'PVC' (2020) with Chronic Insanity Theatre. Alex has had a number
+    of roles with the Nottingham New Theatre, including 'Edward II' (2019) and 'Human
+    Animals' (2019). Alex also wrote and directed 'Ring Ring' (2018) for the Inter-University
+    Drama Festival.
 crew:
-  - name: Tara Anegada
-    role: Playwright & Director
-  - name: Zoe Smith
-    role: Producer
-  - name: Alisha Toporski
-    role: Artist
-  - name: Em Rule
-    role: Dramaturg
----
+- name: Tara Anegada
+  role: Playwright & Director
+- name: Zoe Smith
+  role: Producer
+- name: Alisha Toporski
+  role: Artist
+- name: Em Rule
+  role: Dramaturg
 
+---
 EARTH is a grounding force but also draining, 
 
 it weighs you down with guilt's gravity.
