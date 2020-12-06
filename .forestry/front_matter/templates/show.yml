@@ -65,6 +65,7 @@ fields:
     name: role
     label: role
 pages:
+- _shows/elements/air.md
 - _shows/elements/earth.md
 - _shows/elements/fire.md
 - _shows/elements/water.md
