@@ -29,33 +29,40 @@ layout: default
 
 
 		{% if future_shows != empty or present_shows != empty or past_shows != empty %}
+			{% comment %} Do we have shows ? {% endcomment %}
 			<div class="col-lg-7">
 				<div class="card border-primary bg-dark mb-4">
 					<div class="card-body">
+						{% comment %} Work out what's going in the first box {% endcomment %}
 						{% if present_shows != empty %}
 							{% include shows.html shows=present_shows type='present' %}
 						{% elsif future_shows != empty %}
 							{% include shows.html shows=future_shows type='future' %}
+							{% assign shown_future = true %}
 						{% else %}
 							{% include shows.html shows=past_shows type='past' %}
+							{% assign shown_past = true %}
 						{% endif %}
 						{% assign num_types = num_types | minus: 1 %}
 					</div>
 				</div>
 			</div>
 			{% if num_types >= 1 %}
+				{% comment %} If there is more than one type, let's add them in their own row {% endcomment %}
 				<div class="col-lg-12">
 					<div class="card border-primary bg-dark mb-4">
 						<div class="card-body">
-							{% if future_shows != empty %}
+							{% comment %} We don't need to look for present shows as they will have been displayed already {% endcomment %}
+							{% if future_shows != empty and shown_future != true %}
 								{% include shows.html shows=future_shows type='future' %}
-							{% else %}
+							{% elsif shown_past != true  %}
 								{% include shows.html shows=past_shows type='past' %}
+								{% assign shown_past = true %}
 							{% endif %}
 						</div>
 					</div>
 				</div>
-				{% if present_shows != empty and past_shows != empty %}
+				{% if shown_past != true %}
 					<div class="col-lg-12">
 						<div class="card border-primary bg-dark mb-4">
 							<div class="card-body">
