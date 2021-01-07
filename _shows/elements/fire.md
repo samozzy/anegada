@@ -3,7 +3,7 @@ title: Fire
 playwright: Tara Anegada
 show_date: 2020-11-30 19:30
 date_string: 'Premiering on '
-period: present
+period: past
 crew:
 - name: Tara Anegada
   role: Playwright & Director
