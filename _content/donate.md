@@ -3,7 +3,7 @@ title: Donate
 layout: donate
 charity: The National Youth Arts Trust
 permalink: "/donate/"
-charity_logo: ''
+charity_logo: "/static/nyat-logo.png"
 
 ---
 Donations made between 5th December and 14th February will be split between The National Youth Arts Trust and the cast and team behind ‘Mercutio's Romeo and Juliet’, with 30% going to The National Youth Arts Trust.
