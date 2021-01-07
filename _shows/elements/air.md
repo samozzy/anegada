@@ -3,7 +3,7 @@ title: Air
 playwright: Tara Anegada
 show_date: 2020-11-16 19:30
 date_string: 'Premiering on '
-period: present
+period: past
 youtube: https://youtu.be/_-WieiH11WE
 banner: "/static/productions/elements/air/air_banner.png"
 poster: "/static/productions/elements/air/air_poster.jpg"
