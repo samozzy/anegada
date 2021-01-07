@@ -93,6 +93,11 @@ $anegada-pink: #ec219b;
 	}
 }
 
+.img-donate {
+	max-width: 75% !important;
+	width: auto;
+}
+
 .footer {
 	@extend .text-dark;
 	a {
