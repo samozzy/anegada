@@ -1,11 +1,11 @@
---- 
+---
 title: Donate
 layout: donate
-charity: YoungMinds
-permalink: /donate/
-charity_logo: /static/img/young_minds.png
+charity: The National Youth Arts Trust
+permalink: "/donate/"
+charity_logo: ''
+
 ---
+Donations made between 5th December and 14th February will be split between The National Youth Arts Trust and the cast and team behind ‘Mercutio's Romeo and Juliet’, with 30% going to The National Youth Arts Trust.
 
-Donations made between 9th November and 4th December will be split between YoungMinds and the cast and team behind ‘Elements’, with 30% going to YoungMinds.
-
-YoungMinds is committed to improving children’s wellbeing and mental health. YoungMinds create change so that children and young people can cope with life’s adversities, find help when needed and succeed in life.
+The National Youth Arts Trust exists to do something about inequality in the performing arts industry and to ensure a career in the Arts is accessible to all. They provide bursaries and drama projects to help talented students from disadvantaged backgrounds train in dance, music and drama.
