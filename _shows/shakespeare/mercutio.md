@@ -3,7 +3,7 @@ title: Mercutio's Romeo and Juliet
 playwright: Tara Anegada
 show_date: 2021-02-21 19:30:00 +0000
 date_string: 'Premiering on '
-period: present
+period: future
 youtube: ''
 banner: "/static/mercutios-romeo-and-juliet-by-tara-anegada-banner.JPG"
 poster: ''
