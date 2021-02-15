@@ -22,20 +22,8 @@ jobs:
           ${{ runner.os }}-gems-
 
     # Standard usage
-    - uses:  helaili/jekyll-action@master
-      env:
-        JEKYLL_PAT: ${{ secrets.JEKYLL_PAT }}
-
-    # Specify the Jekyll source location as a parameter
-    # - uses: helaili/jekyll-action@2.0.4
-    #   env:
-    #     JEKYLL_PAT: ${{ secrets.JEKYLL_PAT }}
-    #   with:
-    #     jekyll_src: 'sample_site'
-
-    # Specify the target branch (optional)
-    - uses: helaili/jekyll-action@2.0.4
-      env:
-        JEKYLL_PAT: ${{ secrets.JEKYLL_PAT }}
-      with:
+    # https://github.com/helaili/jekyll-action
+    - uses:  helaili/jekyll-action@v2.0.4
+      with: 
+        token: ${{ secrets.GITHUB_TOKEN }}
         target_branch: 'gh-pages'
