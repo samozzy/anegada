@@ -23,7 +23,7 @@ jobs:
 
     # Standard usage
     # https://github.com/helaili/jekyll-action
-    - uses:  helaili/jekyll-action@2.0.4
+    - uses:  helaili/jekyll-action@2.1.0
       with: 
         token: ${{ secrets.GITHUB_TOKEN }}
         target_branch: 'gh-pages'
