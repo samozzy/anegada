@@ -12,3 +12,5 @@ fields:
 - type: file
   name: banner
   label: banner
+pages:
+- _productions/under-the-rainbow.md
