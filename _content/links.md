@@ -7,7 +7,7 @@ links:
   link: https://youtu.be/ofkGKIuW-1Q
 - title: We want your feedback! - Mercutio's Romeo & Juliet
   link: https://forms.gle/1YRJTTAAtAy5VraC7
-- title: DONATE
+- title: DONATE - We're raising money for NYAT!
   link: "/donate/"
 - title: Our Website!
   link: "/"
