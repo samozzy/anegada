@@ -34,7 +34,7 @@ crew:
 - name: Tara Anegada
   role: Writer and Director
 - name: Zoe Smith
-  role: Producer
+  role: Producer and Production Manager
 - name: Joe Holmes-Milner
   role: Dramaturg and Assistant Director
 - role: Assistant Producer
