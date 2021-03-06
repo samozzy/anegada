@@ -40,7 +40,7 @@ crew:
 - role: Assistant Producer
   name: Jasmine Butler
 - name: Sam Osborne
-  role: Sound Technician
+  role: Sound Technician and Captioner
 
 ---
 "I've grown up with him, with Romeo. He's been my best friend for as long as I can remember. His eyes are the first memory I have."
