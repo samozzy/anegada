@@ -1,13 +1,9 @@
 ---
 title: Donate
 layout: donate
-charity: The National Youth Arts Trust
+charity: Anegada Theatre
 permalink: "/donate/"
-charity_logo: "/static/nyat-logo.png"
+charity_logo: "/static/img/logo.png"
 
 ---
-Donations made between 5th December and 5th March will be split between The National Youth Arts Trust and the cast and team behind ‘Mercutio's Romeo and Juliet’, with 30% going to The National Youth Arts Trust.
-
-The National Youth Arts Trust exists to do something about inequality in the performing arts industry and to ensure a career in the Arts is accessible to all. They provide bursaries and drama projects to help talented students from disadvantaged backgrounds train in dance, music and drama.
-
-[https://nationalyouthartstrust.org.uk/](https://nationalyouthartstrust.org.uk/ "https://nationalyouthartstrust.org.uk/")
+All donations go towards the development of our productions, from costume to set pieces. Every donation also brings us a step closer to being able to pay our casts and crews who currently donate their own time for free.
