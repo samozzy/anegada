@@ -67,4 +67,4 @@ defaults:
   - scope: 
       type: shows
     values: 
-      layout: default
+      layout: production
