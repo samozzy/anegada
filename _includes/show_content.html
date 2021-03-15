@@ -1,0 +1,78 @@
+{% assign show = include.show %}
+	<div class="container bg-primary">
+		<div class="row no-gutters">
+			<div class="col p-0">
+				<h2 class="header pt-3 text-center" id="{{ show.slug }}">{{ show.title }}
+					<br><small><strong>{{ show.show_date | date_to_long_string: "ordinal" }}</strong></small>
+				</h2>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row my-3">
+			{% assign content_spaceless = show.content | strip_newlines %}
+			{% if show.content and show.content != empty and content_spaceless != empty %}
+				<div class="col py-3 show-content my-auto">
+					{{ show.content | markdownify }}
+				</div>
+			{% endif %}
+			{% if show.youtube and show.youtube != empty %}
+				<div class="col-md-4 pr-md-0">
+					{% include show_published.html show=show %}
+					<a class="btn btn-primary btn-block btn-card mb-4 text-dark py-3 show-youtube {% unless show_published %}disabled {% endunless %}" role="button" {% if show_published == true and show.youtube != empty %}href="{{ show.youtube }}"{% else %}disabled{% endif %}>
+						<span class="h4 text-center mb-2 d-block">
+							<strong>Watch on YouTube {% if show_published %}now{% else %}from {{ show.show_date | date: "%k:%M" }} on {{ show.show_date | date_to_string: "ordinal" }}{% endif %}</strong>
+						</span>
+						<div class="show-youtube-img rounded-max" style="background-image:url('{{ show.poster }}');">
+							<span><i class="fab fa-youtube fa-5x text-dark"><span class="sr-only">Watch {{ show.title }} on YouTube</span></i></span>
+						</div>
+					</a>
+				</div>
+			{% endif %}
+		</div>
+		{% if show.cast and show.cast != empty %}
+			<div class="row">
+				<div class="col">
+					<h3 class="header text-center">Cast</h3>
+					<div class="card bg-dark border-primary mb-4">
+						<div class="card-body">
+							{% for person in show.cast %}
+								<div class="row">
+									{% if person.headshot and person.headshot != empty  %}
+										<div class="col-md-4 text-center">
+											<img class="w-75 headshot mb-3" alt="{{ person.name }}" src="{{ person.headshot }}">
+										</div>
+									{% endif %}
+									<div class="col">
+										<h4 class="header text-center text-md-left">{{ person.name }}</h4>
+										{{ person.bio | markdownify }}
+									</div>
+								</div>
+							{% endfor %}
+						</div>
+					</div>
+				</div>
+			</div>
+		{% endif %}
+		{% if show.crew and show.crew != empty %}
+			<div class="row">
+				<div class="col">
+					<h3 class="header text-center">Team</h3>
+					<div class="card bg-dark border-primary mb-4">
+						<div class="card-body">
+							<div class="row">
+								{% for person in show.crew %}
+									<div class="col-6 text-right">
+										<h4><strong>{{ person.name }}</strong> 
+									</div>
+									<div class="col-6 text-left">
+										<h4>{{ person.role }}</h4>
+									</div>
+								{% endfor %}
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		{% endif %}
+	</div>

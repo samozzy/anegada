@@ -35,12 +35,12 @@ layout: default
 					<div class="card-body">
 						{% comment %} Work out what's going in the first box {% endcomment %}
 						{% if present_shows != empty %}
-							{% include shows.html shows=present_shows type='present' %}
+							{% include whatson.html shows=present_shows type='present' %}
 						{% elsif future_shows != empty %}
-							{% include shows.html shows=future_shows type='future' %}
+							{% include whatson.html shows=future_shows type='future' %}
 							{% assign shown_future = true %}
 						{% else %}
-							{% include shows.html shows=past_shows type='past' %}
+							{% include whatson.html shows=past_shows type='past' %}
 							{% assign shown_past = true %}
 						{% endif %}
 						{% assign num_types = num_types | minus: 1 %}
@@ -54,9 +54,9 @@ layout: default
 						<div class="card-body">
 							{% comment %} We don't need to look for present shows as they will have been displayed already {% endcomment %}
 							{% if future_shows != empty and shown_future != true %}
-								{% include shows.html shows=future_shows type='future' %}
+								{% include whatson.html shows=future_shows type='future' %}
 							{% elsif shown_past != true  %}
-								{% include shows.html shows=past_shows type='past' %}
+								{% include whatson.html shows=past_shows type='past' %}
 								{% assign shown_past = true %}
 							{% endif %}
 						</div>
@@ -66,7 +66,7 @@ layout: default
 					<div class="col-lg-12">
 						<div class="card border-primary bg-dark mb-4">
 							<div class="card-body">
-								{% include shows.html shows=past_shows type='past' %}
+								{% include whatson.html shows=past_shows type='past' %}
 							</div>
 						</div>
 					</div>
