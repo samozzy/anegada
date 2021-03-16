@@ -24,6 +24,11 @@ jobs:
         restore-keys: |
           ${{ runner.os }}-gems-
 
+    - name: Set Ruby gems directory
+      run: bundle config path vendor/bundle
+    - name: Install Ruby gems
+      run: bundle install --jobs 4 --retry 3 --deployment
+
     ### BUILD ###
     - name: Build Jekyll 
       run: bundle exec jekyll build 
