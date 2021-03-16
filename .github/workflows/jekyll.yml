@@ -24,6 +24,17 @@ jobs:
         restore-keys: |
           ${{ runner.os }}-gems-
 
+    ### RUBY ###
+    - name: Install Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: 2.6.3
+    - name: Cache Ruby gems
+      id: cache-gems
+      uses: actions/cache@v2
+      with:
+        path: vendor/bundle
+        key: ${{ runner.os }}-gems-1-${{ hashFiles('Gemfile.lock') }}
     - name: Set Ruby gems directory
       run: bundle config path vendor/bundle
     - name: Install Ruby gems
