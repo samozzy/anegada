@@ -87,7 +87,7 @@
 
 .header {
   font-family: 'flood-std', sans-serif;
-  line-height: 0.7;
+  line-height: 0.7 !important;
   margin-bottom: 1rem;
 }
 
@@ -96,33 +96,33 @@
   font-size: 1.5rem;
 }
 
-h1.header {
+h1.header, .h1.header {
   font-size: 3.542rem;
 }
 
-h2.header {
+h2.header, .h2.header {
   font-size: 3.124rem;
 }
 
-h3.header {
+h3.header, .h3.header {
   font-size: 2.618rem;
 }
 
-h4.header {
+h4.header, .h4.header {
   font-size: 2.002rem;
 }
 
 @media only screen and (min-width: 768px) {
-  h1.header {
+  h1.header, .h1.header {
     font-size: 4.554rem;
   }
-  h2.header {
+  h2.header, .h2.header {
     font-size: 3.63rem;
   }
-  h3.header {
+  h3.header, .h3.header {
     font-size: 2.992rem;
   }
-  h4.header {
+  h4.header, .h4.header {
     font-size: 2.233rem;
     letter-spacing: 3px;
   }
