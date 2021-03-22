@@ -6,24 +6,37 @@ layout: default
 	{{ content | markdownify }}
 </div>
 
-<div class="container">
-	<div class="row">
-		<div class="col">
-			{% for person in site.data.people %}
-				<div class="card bg-primary mb-4">
-					<div class="card-body">
-						<div class="row">
-							<div class="col-md-3 mb-4">
-								<img src="{{ person.headshot }}" class="img-fluid headshot shadow-sm w-100" alt="{{ person.name }} Headshot" />
-							</div> 
-							<div class="col order-2">
-								<h2 class="header text-center text-md-left">{{ person.name }} <br class="d-lg-none"><small>{{ person.role }}</small></h2>
-								<p>{{ person.bio | markdownify }}</p>
-							</div>
-						</div>
+{% assign people_types = site.data.people | map: "type" | uniq %}
+{% if people_types.size >= 1 %}
+	{% for person_type in people_types %}
+		{% if person_type != empty and person_type %}
+			<div class="container-fluid p-0">
+				<div class="row mb-4">
+					<div class="col-12 bg-primary">
+						<h2 class="header py-3 text-center"><span>{{ person_type }}</span></h2>
 					</div>
+				</div>
+			</div>
+		{% endif %}
+		<div class="container">
+			<div class="row">
+				{% assign these_people = site.data.people | where:"type",person_type %}
+				{% if person_type contains 'artistic' %}{% assign use_columns=false %}{% else %}{% assign use_columns=true %}{% endif %}
+				{% for person in these_people %}
+					{% include person.html person=person columns=use_columns %}
+				{% endfor %}
+			</div>
+		</div>
+	{% endfor %}
+{% elsif people_types == empty and site.data.people != empty %}
+	<div class="container">
+		<div class="row">
+			{% for person in site.data.people %}
+				<div class="col">
+					{% include person.html person=person %}
 				</div>
 			{% endfor %}
 		</div>
 	</div>
-</div>
+{% endif %}
+
