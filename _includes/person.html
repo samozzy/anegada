@@ -1,0 +1,19 @@
+				{% assign person = include.person %}
+				<div class="{% if include.columns %}col-12 col-md-6 col-lg-4{% else %}col-12{% endif %}">
+					<div class="card bg-primary mb-4">
+						<div class="card-body">
+							<div class="row">
+								{% if person.headshot %}
+									<div class="{% unless include.columns %}col-md-4 mb-4 {% else %}col-11 mx-auto{% endunless %}">
+										<img src="{{ person.headshot }}" class="img-fluid headshot shadow-sm w-100" alt="{{ person.name }} Headshot" />
+									</div> 
+								{% endif %}
+								<div class="col">
+									<span class="d-block header text-center {% if include.columns %}h3 mt-4{% else %}h2 text-md-left{% endif %}">{{ person.name }} <br class="{% unless include.columns %}d-lg-none{% endunless %}">{% if person.role %}<small>{{ person.role }}</small>{% endif %}</span>
+									{% if include.columns %}</div><div class="col-12">{% endif %}
+									<p>{{ person.bio | markdownify }}</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>

@@ -1,6 +1,7 @@
 ---
 - name: Tara Anegada
   role: Artistic Director
+  type: artistic team
   bio: |
     Tara has written and directed several productions for the Nottingham New Theatre, including 'Eve and Adam' (2019) and 'Pilgrimage' (2020). She has also written several short films with the Nottingham New Theatre, including 'I think He was called Rosalind' (2020), 'faces.' (2020) and 'SPRING + AWAKENING' (2020).
 
@@ -8,6 +9,7 @@
   headshot: "/static/tara-anegada-headshot.JPG"
 - name: Zoe Smith
   role: Creative Producer
+  type: artistic team
   bio: "Zoe has previously worked with DARKFIELD (Production and Site Manager) and
     Unbroken Theatre (Production and Stage Manager). Zoe works at Nottingham's Theatre
     Royal & Royal Concert Hall as a Technician. \n\nZoe has also produced for the
@@ -15,3 +17,11 @@
     King is to Become a Killer' (2019). This Summer, Zoe has also produced two short
     films; 'SPRING' (2020) and 'I think He was called Rosalind' (2020)."
   headshot: "/static/img/zoe.png"
+- name: Jasmine Butler
+  role: Associate Producer 
+  type: associate artists
+  headshot: "/static/img/jasmine-butler.jpg"
+- name: Chiara Crompton
+  role: Associate Artist 
+  type: associate artists
+  headshot: "/static/img/chiara-crompton.jpg"
