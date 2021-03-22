@@ -46,10 +46,10 @@ $anegada-pink: #ec219b;
 
 // Navigation
 .brand-mobile {
-  @extend .ml-2, .d-block, .d-md-none, .navbar-brand;
+  @extend .ml-2, .d-block, .d-lg-none, .navbar-brand;
 }
 .brand-large {
-  @extend .navbar-brand, .d-none, .d-md-block;
+  @extend .d-none, .d-lg-block;
 }
 .navbar {
 	flex: 1 0 auto;
