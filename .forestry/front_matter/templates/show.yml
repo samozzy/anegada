@@ -65,7 +65,6 @@ fields:
     name: role
     label: role
 pages:
-- _shows/Rainbow/poppies.md
 - _shows/elements/air.md
 - _shows/elements/earth.md
 - _shows/elements/fire.md

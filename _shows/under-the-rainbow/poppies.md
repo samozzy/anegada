@@ -2,7 +2,7 @@
 period: future
 title: Poppies
 playwright: Tara Anegada
-show_date: 2021-04-25 18:30:00 +0000
+show_date: 2021-04-25T18:30:00.000+00:00
 date_string: ''
 youtube: ''
 banner: ''
@@ -31,3 +31,13 @@ cast:
 crew: []
 
 ---
+“She is a colour, committed to the graveyard of my great loves.   
+  
+Full.   
+  
+Like a swelling fruit.   
+  
+Ripe. Sweet. Overflowing with what once was.”  
+.  
+.  
+‘Poppies’ explores the psyche of a woman traumatised by the loss of her childhood friend. Estranged by their differing perceptions, The Speaker and The Listener struggle to reconcile with their past and understand the truth of their actions. ‘Poppies’ combines film projection and performative poetry to create mixed media theatre production.
