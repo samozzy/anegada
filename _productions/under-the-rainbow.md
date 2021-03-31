@@ -1,6 +1,6 @@
 ---
 title: Under the Rainbow
-prod_date: March 2021
-banner: ''
+prod_date: April 2021
+banner: "/static/rainbow-banner.png"
 
 ---
