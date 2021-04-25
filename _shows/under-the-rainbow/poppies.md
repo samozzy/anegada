@@ -6,7 +6,7 @@ show_date: 2021-04-25T18:30:00.000+00:00
 date_string: ''
 youtube: https://youtu.be/WNo8WXYUV48
 banner: ''
-poster: "/static/poppies-by-tara-anegada.png"
+poster: "/static/youtube-thumbnail.png"
 cast:
 - name: Tara Anegada
   headshot: ''
