@@ -44,7 +44,12 @@
 										</div>
 									{% endif %}
 									<div class="col">
-										<h4 class="header text-center text-md-left">{{ person.name }}</h4>
+										<div class="text-center text-md-left mb-3">
+											<span class="header h4">{{ person.name }}</span>
+											{% if person.role and person.role != empty %}<div class="d-lg-none mb-2"></div>
+											<small class="h4 ml-lg-2 pt-2 mt-lg-0">{{ person.role }}</small>
+											{% endif %}
+										</div>
 										{{ person.bio | markdownify }}
 									</div>
 								</div>

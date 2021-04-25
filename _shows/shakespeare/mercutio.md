@@ -9,6 +9,7 @@ banner: "/static/mercutios-romeo-and-juliet-by-tara-anegada-banner.JPG"
 poster: "/static/square.JPG"
 cast:
 - name: Barney Hartwill
+  role: Mercutio
   headshot: "/static/barney-hartwil-headshot-anegada-theatre.png"
   bio: Barney is a Nottingham based actor whose professional credits include ‘Fine,
     Thanks’ with the Lund Theatre Company at the Edinburgh Fringe Festival (2017)
@@ -21,6 +22,7 @@ cast:
     Relations at the University of Nottingham and is the current Theatre Manager of
     The NNT.
 - name: Sofia Bassani
+  role: Juliet
   headshot: "/static/sofia-bassani-headshot-anegada-theatre.png"
   bio: Sofia is a member of The National Youth Theatre and with The Nottingham New
     Theatre her acting credits include ‘A Midsummer Night’s Dream’ (2019), ‘Vehement’
