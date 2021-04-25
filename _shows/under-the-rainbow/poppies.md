@@ -18,7 +18,7 @@ cast:
     ‘faces.’ (2020) and ‘SPRING + AWAKENING’ (2020). Tara is the current Company Technical
     Director for the Nottingham New Theatre and is studying an MA in Creative Writing
     at the University of Nottingham.
-  role: ''
+  role: The Listener
 - name: Lillian Race
   headshot: ''
   bio: Lillian is an actor, choreographer and director based in Leeds. She previously
@@ -29,31 +29,31 @@ cast:
     for the Edinburgh Fringe Festival. Additionally Lillian co-directed ‘Grant Meets
     Death’ (2018) and ‘Eve and Adam’ (2019) and has choreographed a number of projects,
     including ‘Edward II’ (2019).
-  role: ''
+  role: The Speaker
 - name: Alisha Toporski
   headshot: ''
   bio: ''
-  role: ''
+  role: Girl / The Red Girl
 - name: Lanta Turney
   headshot: ''
   bio: ''
-  role: ''
+  role: The Orange Girl
 - name: Anya Edwards
   headshot: ''
   bio: ''
-  role: ''
+  role: The Green Girl
 - name: Wietske Howell
   headshot: ''
   bio: ''
-  role: ''
+  role: The Blue Girl
 - name: Sofia Bassani
   headshot: ''
   bio: ''
-  role: ''
+  role: The Purple Girl
 - name: Laura Garvin-Gomez
   headshot: ''
   bio: ''
-  role: ''
+  role: The Pink Girl
 crew:
 - name: Rosiella Sutherland
   role: Co-Director
