@@ -1,12 +1,12 @@
 ---
-period: future
+period: present
 title: Poppies
 playwright: Tara Anegada
 show_date: 2021-04-25T18:30:00.000+00:00
 date_string: ''
-youtube: ''
+youtube: https://youtu.be/WNo8WXYUV48
 banner: ''
-poster: ''
+poster: "/static/poppies-by-tara-anegada.png"
 cast:
 - name: Tara Anegada
   headshot: ''
@@ -28,16 +28,48 @@ cast:
     for the Edinburgh Fringe Festival. Additionally Lillian co-directed ‘Grant Meets
     Death’ (2018) and ‘Eve and Adam’ (2019) and has choreographed a number of projects,
     including ‘Edward II’ (2019).
-crew: []
+- name: Alisha Toporski
+  headshot: ''
+  bio: ''
+- name: Lanta Turney
+  headshot: ''
+  bio: ''
+- name: Anya Edwards
+  headshot: ''
+  bio: ''
+- name: Wietske Howell
+  headshot: ''
+  bio: ''
+- name: Sofia Bassani
+  headshot: ''
+  bio: ''
+- name: Laura Garvin-Gomez
+  headshot: ''
+  bio: ''
+crew:
+- name: Rosiella Sutherland
+  role: Co-Director
+- name: Joseph Holmes-Milner
+  role: Co-Director and Sound Designer
+- name: Zoe Smith
+  role: Producer and Production Manager
+- name: Jasmine Butler
+  role: Assistant Producer
+- name: Tara Anegada
+  role: Writer
+- name: Emily Rule
+  role: Dramaturg
+- name: Sam Osborne
+  role: AV Technician
 
 ---
-“She is a colour, committed to the graveyard of my great loves.   
+“She is a colour, committed to the graveyard of my great loves.
+
+Full.
+
+Like a swelling fruit.
+
+Ripe. Sweet. Overflowing with what once was.”
+
   
-Full.   
-  
-Like a swelling fruit.   
-  
-Ripe. Sweet. Overflowing with what once was.”  
-.  
-.  
 ‘Poppies’ explores the psyche of a woman traumatised by the loss of her childhood friend. Estranged by their differing perceptions, The Speaker and The Listener struggle to reconcile with their past and understand the truth of their actions. ‘Poppies’ combines film projection and performative poetry to create mixed media theatre production.
