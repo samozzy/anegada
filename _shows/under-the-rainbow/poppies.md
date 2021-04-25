@@ -3,7 +3,7 @@ period: present
 title: Poppies
 playwright: Tara Anegada
 show_date: 2021-04-25T18:30:00.000+00:00
-date_string: ''
+date_string: 'Premiering on '
 youtube: https://youtu.be/WNo8WXYUV48
 banner: "/static/youtube-thumbnail.png"
 poster: "/static/youtube-thumbnail.png"
@@ -18,6 +18,7 @@ cast:
     ‘faces.’ (2020) and ‘SPRING + AWAKENING’ (2020). Tara is the current Company Technical
     Director for the Nottingham New Theatre and is studying an MA in Creative Writing
     at the University of Nottingham.
+  role: ''
 - name: Lillian Race
   headshot: ''
   bio: Lillian is an actor, choreographer and director based in Leeds. She previously
@@ -28,24 +29,31 @@ cast:
     for the Edinburgh Fringe Festival. Additionally Lillian co-directed ‘Grant Meets
     Death’ (2018) and ‘Eve and Adam’ (2019) and has choreographed a number of projects,
     including ‘Edward II’ (2019).
+  role: ''
 - name: Alisha Toporski
   headshot: ''
   bio: ''
+  role: ''
 - name: Lanta Turney
   headshot: ''
   bio: ''
+  role: ''
 - name: Anya Edwards
   headshot: ''
   bio: ''
+  role: ''
 - name: Wietske Howell
   headshot: ''
   bio: ''
+  role: ''
 - name: Sofia Bassani
   headshot: ''
   bio: ''
+  role: ''
 - name: Laura Garvin-Gomez
   headshot: ''
   bio: ''
+  role: ''
 crew:
 - name: Rosiella Sutherland
   role: Co-Director
