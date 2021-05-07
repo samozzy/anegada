@@ -16,6 +16,8 @@ fields:
 - type: text
   name: date_string
   label: date_string
+  description: The text used on the "What's On" elements before the show is available.
+    Usually something like "Premiering on ". If unset, it's "Available from "
 - name: period
   type: select
   default: present
