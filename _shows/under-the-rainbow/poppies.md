@@ -8,19 +8,8 @@ youtube: https://youtu.be/WNo8WXYUV48
 banner: "/static/youtube-thumbnail.png"
 poster: "/static/youtube-thumbnail.png"
 cast:
-- name: Tara Anegada
-  headshot: ''
-  bio: Tara is the Artistic Director of our company and was the writer and director
-    on ‘Elements’ (2020) and ‘Mercutio’s Romeo & Juliet’ (2021). Tara has written
-    and directed several productions for the Nottingham New Theatre, including ‘Eve
-    and Adam’ (2019) and ‘Pilgrimage’ (2020). She has also written several short films
-    with the Nottingham New Theatre, including ‘I think He was called Rosalind’ (2020),
-    ‘faces.’ (2020) and ‘SPRING + AWAKENING’ (2020). Tara is the current Company Technical
-    Director for the Nottingham New Theatre and is studying an MA in Creative Writing
-    at the University of Nottingham.
-  role: The Listener
 - name: Lillian Race
-  headshot: ''
+  headshot: "/static/lillian-race-headshot-red.jpg"
   bio: Lillian is an actor, choreographer and director based in Leeds. She previously
     featured in our monologue series ‘Elements’ (2020), as the narrator of ‘Fire’.
     Her credits with the Nottingham New Theatre include acting roles in ‘Still Alice’
@@ -30,6 +19,17 @@ cast:
     Death’ (2018) and ‘Eve and Adam’ (2019) and has choreographed a number of projects,
     including ‘Edward II’ (2019).
   role: The Speaker
+- name: Tara Anegada
+  headshot: "/static/tara-anegada-headshot-red.jpg"
+  bio: Tara is the Artistic Director of our company and was the writer and director
+    on ‘Elements’ (2020) and ‘Mercutio’s Romeo & Juliet’ (2021). Tara has written
+    and directed several productions for the Nottingham New Theatre, including ‘Eve
+    and Adam’ (2019) and ‘Pilgrimage’ (2020). She has also written several short films
+    with the Nottingham New Theatre, including ‘I think He was called Rosalind’ (2020),
+    ‘faces.’ (2020) and ‘SPRING + AWAKENING’ (2020). Tara is the current Company Technical
+    Director for the Nottingham New Theatre and is studying an MA in Creative Writing
+    at the University of Nottingham.
+  role: The Listener
 - name: Alisha Toporski
   headshot: ''
   bio: ''
