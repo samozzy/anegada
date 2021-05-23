@@ -4,7 +4,7 @@ period: present
 playwright: Chiara Chrompton
 show_date: 2021-05-23T19:30:00.000+00:00
 date_string: Premiering On
-youtube: https://youtu.be/AgQ2-r9rxGU
+youtube: https://youtu.be/KP7aVgnVqq0
 banner: "/static/gethsemane-banner.jpg"
 poster: "/static/gethsemane-poster.jpg"
 cast:
@@ -25,9 +25,17 @@ cast:
     with Anegada Theatre. Alex has had a number of roles with the Nottingham New Theatre,
     including ‘Edward II’ (2019) and ‘Human Animals’ (2019). Alex also wrote and directed
     ‘Ring Ring’ (2018) for the Inter-University Drama Festival.
-crew: []
----
+crew:
+- name: Chiara Crompton
+  role: Writer and Director
+- name: Barney Hartwill
+  role: Co-Director
+- name: Zoe Smith
+  role: Producer
+- name: Tara Anegada
+  role: Dramaturg
 
+---
 "I dreamt I was in the garden again... again."
   
 In the Garden of Gethsemane Judas betrayed Jesus with his kiss. In the bed of two young lovers, this narrative of shame and betrayal plays on. This piece explores where betrayal lies as the two navigate a relationship tainted by fear and external judgement and watches on and as the garden closes in around them.
