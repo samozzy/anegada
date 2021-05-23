@@ -42,7 +42,7 @@ jobs:
 
     ### BUILD ###
     - name: Build Jekyll 
-      run: bundle exec jekyll build 
+      run: bundle exec jekyll build --verbose
 
     ### DEPLOY ###
     - name: Publish to GH Pages 🚀
