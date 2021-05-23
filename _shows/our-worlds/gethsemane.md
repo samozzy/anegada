@@ -25,7 +25,15 @@ cast:
     with Anegada Theatre. Alex has had a number of roles with the Nottingham New Theatre,
     including ‘Edward II’ (2019) and ‘Human Animals’ (2019). Alex also wrote and directed
     ‘Ring Ring’ (2018) for the Inter-University Drama Festival.
-crew: []
+crew:
+- name: Chiara Crompton
+  role: Writer and Director
+- name: Barney Hartwill
+  role: Co-Director
+- name: Zoe Smith
+  role: Producer
+- name: Tara Anegada
+  role: Daraturg
 
 ---
 "I dreamt I was in the garden again... again."
