@@ -70,10 +70,10 @@ fields:
     name: role
     label: role
 pages:
+- _shows/Our-Worlds/gethsemane.md
 - _shows/elements/air.md
 - _shows/elements/earth.md
 - _shows/elements/fire.md
 - _shows/elements/water.md
 - _shows/shakespeare/mercutio.md
 - _shows/under-the-rainbow/poppies.md
-- _shows/our-worlds/gethsemane.md 
