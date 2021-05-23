@@ -2,7 +2,7 @@
 period: present
 title: Gethsemane
 playwright: Chiara Chrompton
-show_date: 2021-05-23 18:30:00 +0000
+show_date: 2021-05-23T18:30:00.000+00:00
 date_string: Premiering On
 youtube: https://youtu.be/AgQ2-r9rxGU
 banner: "/static/gethsemane-banner.jpg"
