@@ -1,6 +1,6 @@
 ---
-period: present
 title: Gethsemane
+period: present
 playwright: Chiara Chrompton
 show_date: 2021-05-23T18:30:00.000+00:00
 date_string: Premiering On
@@ -26,8 +26,8 @@ cast:
     including ‘Edward II’ (2019) and ‘Human Animals’ (2019). Alex also wrote and directed
     ‘Ring Ring’ (2018) for the Inter-University Drama Festival.
 crew: []
-
 ---
-“I dreamt I was in the garden again... again.”  
+
+"I dreamt I was in the garden again... again."
   
 In the Garden of Gethsemane Judas betrayed Jesus with his kiss. In the bed of two young lovers, this narrative of shame and betrayal plays on. This piece explores where betrayal lies as the two navigate a relationship tainted by fear and external judgement and watches on and as the garden closes in around them.
