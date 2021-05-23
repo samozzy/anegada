@@ -33,7 +33,7 @@ crew:
 - name: Zoe Smith
   role: Producer
 - name: Tara Anegada
-  role: Daraturg
+  role: Dramaturg
 
 ---
 "I dreamt I was in the garden again... again."
