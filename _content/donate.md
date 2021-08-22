@@ -1,13 +1,13 @@
 ---
 title: Donate
 layout: donate
-charity: LGBT+ Service Nottinghamshire
+charity: The National Youth Arts Trust
 permalink: "/donate/"
 charity_logo: "/static/lgbt.jpg"
 
 ---
-All donations made before 20/06/2021 are split between the cast and crew of 'Gethsemane' as well as 30% going straight to The LGBT+ Service Nottinghamshire.
+All donations made before 31/08/2021 are split between the cast and crew of 'Mercutio's Romeo & Juliet' as well as 30% going straight to The National Youth Arts Trust.
 
-The LGBT+ Service Nottinghamshire is a charity that provides a range of specialist services for children and young people aged 11-25 who identify as LGBT+ (lesbian, gay, bisexual, trans and any other sexual orientation or gender identity), or may be questioning this.
+The National Youth Arts Trust exists to do something about inequality in the performing arts industry and to ensure a career in the Arts is accessible to all. Their bursaries and drama projects help talented students from disadvantaged backgrounds train in dance, music, and drama.
 
-[https://www.lgbtplusnotts.org.uk/](https://www.lgbtplusnotts.org.uk/ "https://www.lgbtplusnotts.org.uk/")
+[https://nationalyouthartstrust.org.uk/](https://nationalyouthartstrust.org.uk/ "https://nationalyouthartstrust.org.uk/")
