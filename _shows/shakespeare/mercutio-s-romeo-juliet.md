@@ -27,7 +27,6 @@ crew:
   role: Assistant Producer
 - name: Sam Osborne
   role: Sound Designer
-published: false
 
 ---
 There are two sides to every love story; ‘Mercutio’s Romeo and Juliet’ explores Shakespeare’s ‘Romeo and Juliet’ from the perspectives of Mercutio and Juliet, as an unlikely friendship blossoms between the pair.
