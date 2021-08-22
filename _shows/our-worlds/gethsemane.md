@@ -1,6 +1,6 @@
 ---
 title: Gethsemane
-period: present
+period: past
 playwright: Chiara Chrompton
 show_date: 2021-05-23T19:30:00.000+00:00
 date_string: Premiering On
