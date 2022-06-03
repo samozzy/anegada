@@ -8,6 +8,14 @@ youtube: ''
 banner: ''
 poster: "/static/alice-final-poster-no-banner.png"
 cast:
+- name: Lauren Rose McGee
+  role: Alice
+  headshot: "/static/lauren.JPG"
+  bio: Lauren is an actress, singer and fashion model. She trained at the London College
+    of Music. Her previous theatre credits include LV in 'The Rise and Fall of Little
+    Voice', Mabel Chiltern in 'An Ideal Husband', Kate in 'The Taming of the Shrew'
+    and Hatty in 'Tom's Midnight Garden'. She has recently completed filming on Danny
+    Boyle's 'Pistol' TV series on Disney Plus.
 - name: Shermya
   role: Rabbit
   headshot: "/static/shermya.JPG"
