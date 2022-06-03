@@ -3,7 +3,7 @@ period: future
 title: Alice
 playwright: Tara Anegada
 show_date: 2022-06-14 18:00:00 +0100
-date_string: " "
+date_string: " Book Now"
 youtube: ''
 banner: ''
 poster: "/static/alice-final-poster-no-banner.png"
