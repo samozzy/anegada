@@ -53,3 +53,15 @@ Alice is an artist. Alice wants to create new work. Alice doesn’t want to crea
 ‘Alice’ is a 50 minute poetical theatre piece that was first workshopped in 2021, reimagining Carroll’s classic and asking how to be a female presenting artist in a new and confusing wonderland.
 
 This summer is the world premiere tour of this play to audiences around England.
+
+Nottingham - 14/06 
+
+[https://newtheatre.org.uk/](https://newtheatre.org.uk/ "https://newtheatre.org.uk/")
+
+Manchester - 22/07 & 23/07
+
+[https://manchester.ssboxoffice.com/events/alice/](https://manchester.ssboxoffice.com/events/alice/ "https://manchester.ssboxoffice.com/events/alice/")
+
+London - 08/08, 09/08, & 10/08
+
+[https://camden.ssboxoffice.com/events/alice/](https://camden.ssboxoffice.com/events/alice/ "https://camden.ssboxoffice.com/events/alice/")
