@@ -1,13 +1,13 @@
 ---
 title: Donate
 layout: donate
-charity: The National Youth Arts Trust
+charity: Alice by Tara Anegada
 permalink: "/donate/"
-charity_logo: "/static/nyat-logo.png"
+charity_logo: "/static/final-alice-icon.png"
 
 ---
-All donations made before 31/08/2021 are split between the cast and crew of 'Mercutio's Romeo & Juliet' as well as 30% going straight to The National Youth Arts Trust.
+All donations made through this website are split between the cast and crew of 'Alice' on our UK Tour this summer.
 
-The National Youth Arts Trust exists to do something about inequality in the performing arts industry and to ensure a career in the Arts is accessible to all. Their bursaries and drama projects help talented students from disadvantaged backgrounds train in dance, music, and drama.
+‘Alice’ is a 50 minute poetical theatre piece that was first workshopped in 2021, reimagining Carroll’s classic and asking how to be a female presenting artist in a new and confusing wonderland.
 
-[https://nationalyouthartstrust.org.uk/](https://nationalyouthartstrust.org.uk/ "https://nationalyouthartstrust.org.uk/")
+This summer is the world premiere tour of this play to audiences around England.
