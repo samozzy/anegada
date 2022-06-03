@@ -1,8 +1,8 @@
 ---
-period: present
+period: past
 title: Mercutio's 'Romeo & Juliet'
 playwright: Tara Anegada
-show_date: 2021-08-13 16:30:00 +0100
+show_date: 2021-08-13T16:30:00.000+01:00
 date_string: Booking now
 youtube: ''
 banner: ''
