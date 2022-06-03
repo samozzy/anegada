@@ -54,14 +54,14 @@ Alice is an artist. Alice wants to create new work. Alice doesn’t want to crea
 
 This summer is the world premiere tour of this play to audiences around England.
 
-Nottingham - 14/06 
+Nottingham - The Nottingham New Theatre - 14/06 (6pm)
 
 [https://newtheatre.org.uk/](https://newtheatre.org.uk/ "https://newtheatre.org.uk/")
 
-Manchester - 22/07 & 23/07
+Manchester - The Empty Space - 22/07 & 23/07 (9pm)
 
 [https://manchester.ssboxoffice.com/events/alice/](https://manchester.ssboxoffice.com/events/alice/ "https://manchester.ssboxoffice.com/events/alice/")
 
-London - 08/08, 09/08, & 10/08
+London - The Lion & Unicorn - 08/08, 09/08, & 10/08 (6pm)
 
 [https://camden.ssboxoffice.com/events/alice/](https://camden.ssboxoffice.com/events/alice/ "https://camden.ssboxoffice.com/events/alice/")
