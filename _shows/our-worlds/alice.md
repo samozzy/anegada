@@ -8,6 +8,13 @@ youtube: ''
 banner: ''
 poster: "/static/alice-final-poster-no-banner.png"
 cast:
+- name: Cherry Eckel
+  role: Hatter / Absolem
+  headshot: "/static/cherry.JPG"
+  bio: Cherry is a London-based performer, writer, director, and spoken-word poet.
+    Her work often explores social issues, identity, and family. She is interested
+    in creating work that is relevant, empowering, electric, and blurs boundaries
+    between disciplines.
 - name: Nicole Joseph
   headshot: "/static/nicole.JPG"
   bio: Nicole is a London based model, film and theatre actor who trained at Identity
